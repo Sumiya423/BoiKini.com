@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home">
+
+        </item>
+
+    </group>
+
+    <item
+        android:title="Operations">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:icon="@drawable/ic_buy_book"
+                    android:id="@+id/nav_buy"
+                    android:title="Buy Book">
+
+                </item>
+                <item
+                    android:icon="@drawable/ic_sell_book"
+                    android:id="@+id/nav_sell"
+                    android:title="Sell Your Book">
+
+                </item>
+                <item
+                    android:icon="@drawable/ic_search"
+                    android:id="@+id/nav_search"
+                    android:title="Search">
+
+                </item>
+            </group>
+
+        </menu>
+
+    </item>
+
+
+    <item
+        android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="My Profile">
+
+                </item>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout">
+
+                </item>
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:title="About">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_dev"
+                    android:icon="@drawable/ic_dev"
+                    android:title="Developer">
+
+                </item>
+                <item
+                    android:id="@+id/nav_app_about"
+                    android:icon="@drawable/ic_app"
+                    android:title="App">
+
+                </item>
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

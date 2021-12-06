@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BoiKini.com</string>
+    <string name="title_activity_pin_verification">PinVerification</string>
+    <string name="nav_open">Open nav drawer</string>
+    <string name="nav_close">Close nav drawer</string>
+
+
+    <!--<string name="title_activity_buy">Buy</string>-->
+</resources>

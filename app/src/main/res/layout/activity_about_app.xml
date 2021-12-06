@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/back2"
+    tools:context=".activity.AboutAppActivity">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView3"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:src="@drawable/boikini_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BoiKini.com"
+        android:fontFamily="@font/chelsea_market"
+        android:textColor="@color/blue"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="#4D687C"
+        android:textAlignment="center"
+        android:fontFamily="@font/artifika"
+        android:text="Boikini.com is a very useful and helpful application ion
+in selling/ buying old or new books without any intermidiate agents so that users can
+get best offers on their books. It was a project started to fulfill the needs of students
+and save their time."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="version 1.0"
+        android:textAlignment="center"
+        android:textColor="@color/dark"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Rights Reserved"
+        android:textAlignment="center"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/blue"/>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue2"
+    android:gravity="center"
+    tools:context=".activity.Sell">
+
+    <EditText
+        android:id="@+id/btnBookContactDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="Contact Details"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/btnBookPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="Price"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/btnBookDescription"
+        android:layout_width="269dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="Description"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/btnBookName"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="BookName"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/btnBookPic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/placeholder" />
+
+    <Button
+        android:id="@+id/btnSell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/back_round"
+        android:textColor="@color/gray"
+        android:text="SELL" />
+
+</LinearLayout>
